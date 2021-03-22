@@ -1,0 +1,76 @@
+.main {
+  background-color: antiquewhite;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 50%;
+  box-shadow: 0 0 10px;
+  border-radius: 6px;
+}
+
+.main h1 {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type="text"] {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  min-width: 80%;
+}
+
+.form button[type="submit"] {
+  border: none;
+  height: 40px;
+  width: 40px;
+  background: coral;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarefa {
+  margin-top: 30px;
+}
+
+.tarefa li {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tarefa li:hover {
+  background: burlywood;
+  transition: all 350ms;
+}
+
+.tarefa li .edit {
+  margin-right: 15px;
+  color: darkslategray;
+}
+
+.tarefa li .delete {
+  margin-right: 15px;
+  color: darkred;
+}
+
+.tarefa li .delete,
+.tarefa li .edit {
+  cursor: pointer;
+}
+
+.tarefa li span {
+  display: flex;
+  align-items: center;
+}
