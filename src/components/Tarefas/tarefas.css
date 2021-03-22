@@ -1,0 +1,35 @@
+.tarefa {
+  margin-top: 30px;
+}
+
+.tarefa li {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tarefa li:hover {
+  background: burlywood;
+  transition: all 350ms;
+}
+
+.tarefa li .edit {
+  margin-right: 15px;
+  color: darkslategray;
+}
+
+.tarefa li .delete {
+  margin-right: 15px;
+  color: darkred;
+}
+
+.tarefa li .delete,
+.tarefa li .edit {
+  cursor: pointer;
+}
+
+.tarefa li span {
+  display: flex;
+  align-items: center;
+}

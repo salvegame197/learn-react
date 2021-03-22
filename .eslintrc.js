@@ -20,5 +20,6 @@ module.exports = {
     "no-unused-vars": "off",
     "react/no-unused-state": "off",
     "no-undef": "off",
+    "react/forbid-prop-types": "off",
   },
 };
